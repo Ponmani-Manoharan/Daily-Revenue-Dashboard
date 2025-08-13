@@ -51,9 +51,6 @@ daily_revenue_dashboard/
 
 ---
 
-
----
-
 ## ⭐ Features
 
 - **Dimension Tables**:
