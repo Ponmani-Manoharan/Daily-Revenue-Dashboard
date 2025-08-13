@@ -4,11 +4,17 @@ Daily Revenue Dashboard simulates a hypermarket’s real-time sales using a star
 ---
 
 # Git Setup
-git clone git@github.com:Ponmani-Manoharan/Daily-Revenue-Dashboard.git
-cd Daily-Revenue-Dashboard
-git add .
-git commit -m "Initial commit"
-git push origin main
+- git clone git@github.com:Ponmani-Manoharan/
+
+- Daily-Revenue-Dashboard.git
+
+- cd Daily-Revenue-Dashboard
+
+- git add .
+
+- git commit -m "Initial commit"
+
+- git push origin main
 
 
 ---
@@ -31,22 +37,20 @@ This repository contains a complete setup for an **operational dashboard** simul
 ## 📂 Repository Structure
 
 daily_revenue_dashboard/
-│
-├── README.md                # Project overview, instructions, objectives
-├── requirements.txt         # Python dependencies (psycopg2, pandas, SQLAlchemy, etc.)
+├── README.md
+├── requirements.txt
 ├── sql/
-│   ├── create_tables.sql    # PostgreSQL table creation scripts (star schema)
-│   └── 
+│   └── create_tables.sql
 ├── python/
-│   ├── generate_dim_data.py # Script to create and populate dimension tables
-│   ├── generate_fact_data.py # Script to generate and insert fact transactions
-│   └── scheduler.py         # Optional: code to schedule hourly inserts
+│   ├── generate_dim_data.py
+│   ├── generate_fact_data.py
+│   └── scheduler.py
 ├── tableau/
-│   └── dashboard_files.twb  # Placeholder for Tableau dashboard files
+│   └── dashboard_files.twb
 ├── drawio/
-│   └── star_schema.drawio   # Star schema diagram
+│   └── star_schema.drawio
 └── data/
-    └── sample_data.csv      # Optional: CSV export of dummy data
+    └── sample_data.csv
 
 
 ---
